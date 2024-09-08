@@ -1,0 +1,1462 @@
+
+*{
+    font-family: yb-m;
+    font-size: 14px;
+}
+
+/* fonts add */
+@font-face{
+    font-family: yb-m;
+    src: url('../fonts/Yekan\ Bakh\ -\ Medium.ttf');
+}
+    
+@font-face{
+    font-family: yb-b;
+    src: url('../fonts/Yekan\ Bakh\ -Bold.ttf');
+}
+
+/* end fonts */
+
+:root{
+  --text-white-color-plast:#f5f5f5;
+  --small-text-color:#ca1119;
+  --small-text-font:0.75rem;
+  --red-color-plast:#ca1119;
+  
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+ul{
+  list-style: none;
+}
+
+/* star header----------------------------------------------------------------- */
+
+
+
+header{
+  background-image: url(../img/background\ first.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: bottom;
+
+  
+  /* object-fit: cover; */
+  /* position: fixed; */
+  
+
+}
+
+
+ul li a{
+  color:#fefefe !important ;
+}
+.nav-plast{
+
+width: 88%;
+height: 60px;
+border: #cacaca solid 1px;
+border-radius: 50px;
+margin: auto;
+/* position:relative; */
+top: 20px;
+
+
+
+}
+.vertical-plast{
+  width: 1px;
+  height: 10px;
+  background-color: #ffffff;
+  /* margin: auto 0px; */
+  margin-top: 24px;
+  /* display: flex; */
+}
+
+.navbar-toggler-icon-plast{
+  color: #ffffff ;
+  font-size: 2rem;
+  
+}
+
+.button-plast{
+ border: none;
+
+}
+
+.li-first-plast{
+  margin: 0 10px;
+  /* height: 60px; */
+  line-height: 45px;
+  
+}
+.khadamat-plast li{
+  line-height: 30px;
+}
+.khadamat-plast{
+  margin-top: 30px;
+}
+.li-first-plast:hover{
+  border-bottom: 1.5px solid red;
+  /* height: 60px; */
+}
+
+.moshavereh-plast{
+  width: 129px;
+  height: 48px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  color: black !important;
+  line-height: 48px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+
+
+
+/* search bar--------------------------------------------------------------------------------------------------------> */
+
+.search-box{
+  position: relative;
+  margin-left: 0%;
+  margin-right: auto;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  /* box-shadow: 5px 5px 30px rgba(0,0,0,.2); */
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.search-box.active{
+  width: 180px;
+}
+.search-box input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 50px;
+  background: #fff;
+  outline: none;
+  padding: 0 60px 0 20px;
+  font-size: 1rem;
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.search-box input.active{
+  opacity: 1;
+}
+.search-box input::placeholder{
+  color: #a6a6a6;
+}
+.search-box .search-icon{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 48px;
+  width: 48px;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  
+  line-height: 48px;
+  font-size: 1.25rem;
+  color: black;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.search-box .search-icon.active{
+  right: px;
+  height: 48px;
+  line-height: 48px;
+  width: 48px;
+  font-size: 1.25rem;
+  background: white;
+  color: black;
+  transform: translateY(-50%) rotate(360deg);
+}
+.search-box .cancel-icon{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.search-box .cancel-icon.active{
+  right: -20px;
+  transform: translateY(-50%) rotate(360deg);
+}
+.search-box .search-data{
+  text-align: center;
+  padding-top: 7px;
+  color: #fff;
+  font-size: 0.55rem;
+  word-wrap: break-word;
+}
+.search-box .search-data.active{
+  display: none;
+}
+/* end of search bar------------------------------------------------------------------------------------------------> */
+
+.ul-plast li a{
+  color: black !important;
+}
+.control-div-plast{
+ 
+  background-color: aqua;
+  
+  
+  
+}
+/* .control-ul-plast1{
+background-color: white !important;
+width: 40%;
+}
+.control-ul-plast2{
+  background-color: red !important;
+  width: 30%;
+  }
+  .control-ul-plast3{
+    background-color: yellow !important;
+    width: 30%;
+  
+    } */
+
+
+
+.ssss{
+  width: 60vw;
+  height: 330px;
+  border-radius: 2px 2px 20px 20px;
+  
+ 
+  
+
+ 
+  /* background-color: aqua; */
+  
+}
+
+
+.control-khadamat-plast{
+  width: 80%;
+  
+  
+ 
+ 
+  
+  
+}
+.khadamat-plast1{
+  width: 30%;
+ 
+  height: 60%;
+  /* background-color: red; */
+  position: absolute;
+  border-left: 1px solid #bbbbbb;
+ 
+}
+.khadamat-plast2{
+  width: 30%;
+ 
+  height: 90%;
+  /* background-color:blue; */
+  position: absolute;
+  right: 32%;
+}
+.khadamat-plast3{
+  width: 30%;
+ 
+  height: 90%;
+  /* background-color:green; */
+  position: absolute;
+  right: 65%;
+}
+.khadamat-plast li{
+
+  margin:  0;
+}
+   .dropdown-item {
+    color: black !important;
+    font-size: 1rem !important;
+
+   }
+  .dropdown-header{
+    font-size: 1.1rem !important;
+    font-style: bold;
+    color: #ed1b24 !important;
+    
+  }
+  .main-section-plast{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 10%;
+    
+
+}
+  .main-section-plast h1{
+    font-size: 3rem;
+    color: #f3f3f4;
+
+  }
+  .main-section-plast p{
+    font-size: .8rem;
+    color: #eeeeee;
+    padding-top: 4%;
+    width: 92%;
+    margin: auto;
+  }
+  .main-section-btn-plast{
+    margin-top: 2%;
+  }
+  .main-section-btn-moshavere{
+    background-color: white;
+    color: #000000;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    margin-left: 5px;
+    margin-top: 3%;
+    transition: all 0.5s;
+
+  }
+  .main-section-btn-moshavere:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  .main-section-btn-catalog{
+    width: 220px;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    color: white;
+    border: 1px solid white;
+    margin-right: 5px;
+    margin-top: 3%;
+    transition: all .5s;
+  }
+  .main-section-btn-catalog:hover{
+background-color: white;
+color: #000000;
+  }
+  .contact-main-section-plast{
+    margin: auto;
+    padding-top: 22%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  .contact-main-section-plast a{
+    color: #c4c4c4;
+    transition: all 0.5s;
+  }
+  .contact-main-section-plast a:hover{
+    color: red;
+  }
+  .vertical-contact-main-section-plast{
+    width: 1px;
+    height: 15px;
+    background-color: #c4c4c4;
+    margin: 0 40px;
+  }
+  .arrow-plast{
+    color: white;
+    position: absolute;
+   left: 5%;
+    top: 50%;
+    rotate: 270deg;
+    font-size: 1.2rem;
+    display: flex;
+    
+   
+  }
+  
+  .arrow-test{
+color: white;
+position: relative;
+animation-name: arrow-plast;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
+transition: .5s;
+
+  }
+
+  .arrow-test::after{
+    content: '';
+    position:absolute;
+    width: 15px;
+    height: 1px;
+    color: white;
+    background-color: white;
+    top: 35%;
+    border-radius: 5px;
+  }
+ 
+  .test-arrow-box{
+    width: 8px;
+    height: 8px;
+    position: relative;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    rotate: 45deg;
+    top:21% ;
+    right: 6px;
+    
+
+
+  }
+
+/* end of header-------------------------------------------------- */
+
+/* start section about ------------------------------------------------------------------------------------------------ */
+
+.about-plast{
+  width: 90%;
+  height:350px ;
+  margin: auto;
+  margin: 8% auto;
+ 
+}
+.text-about-plast{
+width: 40%;
+
+
+
+}
+.text-about-plast small{
+font-size: var(--small-text-font);
+color: var(--small-text-color);
+margin-bottom: 5%;
+}
+.text-about-plast b{
+  font-size: 1.75rem;
+  width: 70%;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 8%;
+  padding-bottom: 8%;
+}
+.text-about-plast span{
+  font-weight: 600;
+  width: 75%;
+  font-size: 0.9rem;
+  margin-bottom: 5%;
+  
+}
+.text-about-plast p{
+  font-size: 1vw;
+  width: 75%;
+  color: #757575;
+  
+  
+}
+
+
+.photo-about-plast img{
+  width: 100%;
+  height: 350px;
+}
+
+
+/* start classify section------------------------------------------------------------------------------------- */
+.classify-section-plast{
+  width: 90%;
+  height:auto ;
+  margin: 8% auto;
+  align-items: center;
+ 
+  
+}
+
+.classify-section-plast small{
+  font-size: var(--small-text-font);
+  color: var(--small-text-color);
+  margin-bottom: 3%;
+  }
+.classify-section-plast h2{
+  font-size: 1.75rem;
+  color: #212121;
+
+}
+.classify-section-plast p{
+color: #595959;
+font-size: 1rem;
+width: 60%;
+text-align: center;
+padding-top: 3%;
+}
+.row-classify-section-plast{
+  margin: 5% auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+  
+  
+  
+}
+.item-section-row-plast{
+ margin-top: 20px;
+  align-items: center;
+  transition: all 1s;
+  
+
+}
+
+
+.item-section-row-plast b{
+  color: #12131a;
+  font-weight: 100;
+  width: 60%;
+  border-left:1px solid #dedede ;
+  margin-right: 10px;
+  padding-left: 5%;
+  transition: all linear 0.1s;
+}
+
+.item-section-row-plast span{
+  font-size: 3rem;
+  color: transparent;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  line-height: 64px;
+  text-align: center;
+  transition: all linear .5s;
+  
+ 
+ 
+}
+
+.item-section-row-plast:hover .hover-item-section-classify-plast span{
+color: var(--red-color-plast);
+backdrop-filter: contrast(35%);
+
+
+}
+
+.item-section-row-plast:hover.item-section-row-plast b{
+font-weight: 600;
+
+}
+
+
+.item1-section-classify-plast{
+  background-image: url(../img/bulb-removebg-preview\ 2.png);
+  background-position: center;
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+.item2-section-classify-plast{
+  background-image: url(../img/bars\ 2.png);
+  background-position: center;
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item3-section-classify-plast{
+  background-image: url(../img/calendar\ 2.png);
+  background-position: center;
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item4-section-classify-plast{
+  background-image: url(../img/evaluation\ 2.png);
+  background-position: center;
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item5-section-classify-plast{
+  background-image: url(../img/search-house\ 2.png);
+  background-position: center;
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.classify-section-part2-plast{
+  width: 100%;
+  height: 350px;
+  margin: 8% auto;
+}
+/* .img-classify-part2-plast{
+width: 63%;
+height: 100%;
+} */
+.img-classify-part2-plast img{
+  width: 100%;
+  height: 350px;
+}
+.text-classify-part2-plast{
+  width: 40%;
+  
+ 
+}
+.text-classify-part2-plast h3{
+  font-size: 1.75rem;
+  width: 75%;
+  margin-bottom: 8%;
+  padding-bottom: 8%;
+  margin-right: auto;
+  
+}
+.text-classify-part2-plast span{
+  font-weight: 600;
+  width: 75%;
+  font-size: 0.9rem;
+  margin-bottom: 5%;
+  margin-right: auto;
+  
+}
+.text-classify-part2-plast p{
+  font-size: 1vw;
+  width: 75%;
+  color: #757575;
+  text-align: right;
+  margin-right: auto;
+ 
+  
+}
+.classify-section-part2-plast a{
+  width: 140px;
+  height: 48px;
+  border: 1px solid var(--red-color-plast);
+  border-radius: 50px;
+  color: var(--red-color-plast);
+  line-height: 48px;
+  text-align: center;
+  margin-top: 8%;
+  margin-right: 25%;
+
+}
+.classify-section-part2-plast a:hover{
+  border: 1px solid white;
+  background-color: var(--red-color-plast);
+  color: white;
+  transition: all ease-in-out 0.75s;
+}
+/* end of classify section------------------------------------------------------------------------------------- */
+/* start products section------------------------------------------------------------------------------------------- */
+.products-section-plast{
+  width: 90%;
+  height: auto;
+  margin: 8% auto;
+  /* background-color: yellowgreen; */
+  text-align: center;
+
+}
+.products-section-plast small{
+  color: var(--small-text-color);
+  font-size: var(--small-text-font);
+
+}
+.products-section-plast h4{
+  font-size: 1.75rem;
+  color: #212121;
+  margin: 5% 0;
+}
+.products-section-plast p{
+  width: 55%;
+  color: #595959;
+  font-size:1rem ;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+
+
+/* start swiper in products section------------------------------------------------------------------------------  */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.swiper-slide-products-plast {
+  text-align: center;
+  font-size: 1rem;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+  
+}
+.swiper-slide-products-plast a span{
+ position: absolute;
+  display: flex;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  background-color: white;
+  justify-content: center;
+  color: black;
+  
+}
+.swiper-slide-products-plast a{
+  background: #efefef;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.swiper-slide-products-plast a img{
+  display: flex;
+  height: auto;
+  object-position: center;
+ 
+  
+}
+.swiper-slide-article-plast a img{
+ 
+  display: flex;
+  width: 100%;
+  height: 100%;
+ background-position: center;
+ background-size:cover ;
+
+}
+.swiper-button-next{
+  color: #ca1119;
+  opacity: 0.5;
+}
+.swiper-button-prev{
+  color: #ca1119;
+  opacity: 0.5;
+}
+
+/* end of swiper in products section------------------------------------------------------------------------------  */
+/* end of products section------------------------------------------------------------------------------------------- */
+/* start Counseling section-------------------------------------------------------------------------------------------- */
+
+.form-section-plast{
+  background-image: url(../img/moshavere\ 2\ layer.png);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.form1-section-plast{
+  
+  width: 90%;
+  height: 60%;
+  margin: auto;
+}
+.control-text-form-plast{
+width: 50%;
+
+}
+.text-form1-plast{
+  width: 70%;
+  margin: 30px auto;
+  
+}
+.text-form1-plast small{
+  color: var(--small-text-color);
+}
+.text-form1-plast b{
+  color: #f5f5f5;
+  font-size: 1.75rem;
+  margin: 30px 0;
+}
+.text-form1-plast p{
+  color: white;
+  font-size: .9rem;
+}
+
+.form-plast{
+  width: 50%;
+}
+form label{
+  color: white;
+  font-size: 0.9rem;
+  padding-right: 5px;
+}
+.form-control{
+  direction: rtl;
+  background-color: transparent;
+  color:#ca1119;
+  border: 1px solid #f5f5f5;
+  
+}
+.form-control1{
+  height: 50px;
+}
+.form-control2{
+  height: 120px;
+}
+
+::-webkit-input-placeholder {
+   color: white !important;
+   padding-right: 10px;
+   padding: 5px 0;
+   font-size: 0.9rem;
+   }
+
+   .btn-form-plast{
+  width: 165px;
+  height: 48px;
+  border-radius: 50px;
+  background-color: var(--red-color-plast);
+  color: white;
+
+}
+
+
+
+/* end of Counseling section-------------------------------------------------------------------------------------------- */
+/* start article section ------------------------------------------------------------------------------------------------ */
+.article-section-plast{
+  width: 90%;
+  margin: 8% auto;
+  
+
+}
+.control-text-article-plast{
+  text-align: center;
+}
+.article-section-plast small{
+  color: var(--small-text-color);
+  font-size: var(--small-text-font);
+  
+}
+.article-section-plast h5{
+  font-size: 1.75rem;
+  margin: 5% 0;
+  color: #212121;
+}
+.article-section-plast p{
+  padding-bottom: 5%;
+  font-size: 1rem;
+  color: #595959;
+}
+
+.swiper-slide-article-plast{
+
+}
+.swiper-slide-article-plast span{
+font-size: 1rem;
+color: #757575;
+display: flex;
+margin: 8% 0;
+}
+.swiper-slide-article-plast p{
+font-size: 1.25rem;
+color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of article section ------------------------------------------------------------------------------------------------ */
+/* start footer------------------------------------------------------------------------------------------- */
+
+.first-footer-plast{
+  width: 100%;
+  height: 65px;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: row;
+  
+  
+  
+}
+.footer-img-plast{
+  
+  display: flex;
+  margin-right: 80px;
+  margin-left: auto;
+  align-items: center;
+  
+}
+.footer-img-plast img{
+  width: 100px;
+  height: 24px;
+}
+
+  
+
+.footer-logo-plast{
+  margin-left: 80px;
+  margin-right: auto;
+  display: flex;
+  
+}
+.footer-logo-plast span{
+  font-size: 1.3rem;
+}
+.footer-logo-plast a{
+
+color: #ffffff;
+margin: auto 12px;
+} 
+.icon-instagram-logo:hover{
+color: #ed1b72;
+}
+.icon-twitter-logo:hover{
+  color: rgba(37, 172, 235, 0.938);
+}
+.icon-facebook-logo:hover{
+  background-color: blue;
+  border-radius: 2px;
+}
+.icon-linkedin-logo:hover{
+  background-color: rgba(0, 119, 255, 0.808);
+  border-radius: 2px;
+}
+.footer-logo-plast span{
+  transition: all 0.5s;
+}
+.second-footer-plast{
+  background-color: #000000;
+  flex-wrap: wrap;
+  
+}
+
+.second-footer-col1va2{
+  color: var(--text-white-color-plast);
+ justify-self:stretch;
+  margin-top:3% ;
+  padding-bottom: 5%;
+  padding-right: 3%;
+  
+}
+.second-footer-col1va2 li{
+margin: 18px 0;
+}
+.second-footer-col3{
+  justify-self: flex-start;
+  margin-top: 4%;
+  padding-bottom: 5%;
+  padding-right: 3%;
+  
+
+  
+}
+.second-footer-col3 b{
+  font-size: 1.25rem;
+  color: white;
+}
+.second-footer-col3 p{
+  color: var(--text-white-color-plast);
+  margin-top: 12px;
+  width: 90%;
+  font-size: .9rem;
+}
+.second-footer-col4{
+  margin-top: 4%;
+  /* text-align: center; */
+  text-align:justify;
+}
+.second-footer-col4 b{
+  color: white;
+  padding-right: 8%;
+  
+  
+  /* margin-left: 15%; */
+  /* margin-right: 5%; */
+  
+ 
+}
+
+
+/* email subscribe------------------------------------------------------------------------------ */
+.signup_form-plast{
+  margin-top: 5%;
+  width: 80%;
+  justify-self: right;
+}
+.subscribe {
+  display: block;
+  position: relative;
+  margin-top: 15px;
+  margin: auto;
+  width: 100%;
+}
+.subscribe__input {
+background-color: #fff;
+border-radius: 50px;
+color: #333;
+display: block;
+font-size: 1rem;
+font-weight: 500;
+height: 60px;
+letter-spacing: 0.4px;
+margin: 0;
+padding: 0 0px 0px 0px;
+padding-left: 100px;
+text-align: center;
+text-transform: capitalize;
+width: 100%;
+}
+
+
+.subscribe__btn {
+background-color:var(--red-color-plast) ;
+border-radius: 50px;
+color:#ffffff ;
+cursor: pointer;
+display: block;
+font-size: 1rem;
+height: 50px;
+position: absolute;
+left: 5px;
+top: 5px;
+width: 90px;
+}
+.subscribe__btn i{
+  transition: all 0.3s ease 0s;
+}
+
+.subscribe__btn:hover i{
+  color:#ff3666;
+}
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/* end of email subscribe---------------------------------------------------------------------------- */
+.copyright-plast{
+  width: 80%;
+  height: 50px;
+  border-top: 0.5px solid #f3f3f4;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  color:#f3f3f4 ;
+  line-height: 50px;
+}
+
+
+
+/* end of footer--------------------------------------------------------------------------------- */
+
+
+
+
+/* animation----------------------------------------------------------------------------------------- */
+@keyframes arrow-plast {
+  0%{
+    right: 0px;
+  }
+ 
+  100%{
+    right: 10px;
+  }
+}
+
+
+
+
+/* start media query---------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+  .contact-main-section-plast{
+
+    width: 65vw;
+   
+  }
+}
+@media only screen and (max-width: 991px) {
+ .moshavereh-plast{
+    display: none;
+  }
+  .vertical-plast{
+    display: none;
+  }
+  .search-box{
+    position: absolute;
+    margin-left: auto;
+    margin-right: 0%;
+    top:-50px;
+    
+    
+  }
+ 
+
+  .search-box.active{
+    width: 350px;
+  }
+  .collapse-plast{
+    margin-top: 100px;
+  
+  }
+ .nav-link-plast{
+  color:#ca1119 !important;
+ }
+
+  button.navbar-toggler{
+border: none !important;
+position: relative;
+left: 87%;
+}
+  .img-plast{
+    margin-left:0%;
+    margin-right: auto;
+  }
+
+.li-first-plast{
+  width: fit-content;
+ 
+  
+}
+  .ssss{
+    
+    width: 70vw !important;
+    height: auto;
+    border-radius: 0%;
+    opacity: 0.7;
+  }
+
+  .khadamat-plast1{
+    position: static!important;
+    width: auto;
+    height: auto;
+    border: none;
+  }
+  .khadamat-plast2{
+    position: static !important;
+    height: auto;
+    width: auto;
+  }
+  .khadamat-plast3{
+    position:static !important;
+    height: auto;
+    width: auto;
+  }
+  .khadamat-plast li{
+
+    margin: 2% 0;
+    
+  }
+  .collapse{
+    backdrop-filter:blur(1800px) ;
+    /* background-color: #212121; */
+    z-index: 99;
+    
+  }
+  .li-first-plast{
+    border-bottom-color:white !important;
+  }
+  .subscribe{
+    margin-left: auto;
+    margin-right: 12.5%;
+  }
+  .vertical-contact-main-section-plast{
+    display: none;
+  
+  
+  }
+  .contact-main-section-plast{
+    padding-top: 20%;
+    flex-direction: column !important;
+    
+  }
+
+
+  .about-plast{
+    flex-direction: column !important;
+    height: auto;
+    align-items: center;
+    width: 80%;
+    
+  }
+  .text-about-plast{
+  text-align: center;
+  width:100% ;
+  margin: 0 auto ;
+  
+  
+  }
+  .text-about-plast small{
+    font-size: 1rem;
+  }
+  .text-about-plast span, .text-about-plast p {
+    font-size: 2.25vw;
+    margin: 20px auto ;
+  }
+  .text-about-plast b{
+    margin: 0 auto ;
+  }
+  .hover-item-section-classify-plast{
+    width: 90px ;
+    height: 90px ;
+  }
+  .hover-item-section-classify-plast span{
+    line-height: 90px;
+    font-size: 4rem;
+  }
+  .item-section-row-plast b{
+    border: none;
+    
+  }
+  .classify-section-plast small{
+    font-size: 1rem;
+  }
+
+.classify-section-plast p{
+  font-size: 2.25vw;
+}
+
+
+
+  .second-footer-col4{
+    text-align: center;
+    
+  }
+  .second-footer-col4 b{
+    padding-left: 8%;
+
+}
+.classify-section-part2-plast{
+  flex-direction: column !important;
+    height: auto;
+    align-items: center;
+    width: 80%;
+}
+.text-classify-part2-plast{
+  width: 100%;
+}
+.text-classify-part2-plast h3,.text-classify-part2-plast span, .text-classify-part2-plast p{
+
+text-align: center;
+margin: 0 auto;
+font-size: 2.25vw;
+}
+.text-classify-part2-plast h3{
+  margin-top: 5%;
+}
+.text-classify-part2-plast a{
+margin: 30px auto;
+font-size: 1.75vw;
+}
+.products-section-plast small{
+  font-size: 1rem;
+}
+.products-section-plast p{
+  font-size: 2.25vw;
+}
+.control-text-article-plast small{
+  font-size: 1rem;
+
+}
+.control-text-article-plast h5{
+margin-top: 5%;
+}
+.control-text-article-plast p{
+  font-size: 2.25vw;
+}
+}
+
+@media only screen and (max-width: 800px) {
+  .img-plast{
+    margin-left:-5%;
+    margin-right: auto;  
+   
+  }
+  button.navbar-toggler{
+    border: none !important;
+    position: relative;
+    left: 89%;
+    }
+    .main-section-plast h1{
+      font-size: 2rem;
+      padding-top: 10%;
+      
+  
+    }
+    .subscribe__btn{
+      left:5px;
+    }
+
+
+
+    .photo-about-plast img{
+    width: 100%;
+    height: 35vh;
+    margin-top: 8%;
+    }
+    .second-footer-col3{
+      margin-right: 5%;
+    }
+    .copyright-plast small{
+  font-size: 8px;
+    }
+    .second-footer-col4{
+      text-align: center;
+      
+    }
+    
+    .contact-main-section-plast{
+      flex-direction: column;
+      justify-content: center;
+      width: 70%;
+      padding-top: 20%;
+}
+.hover-item-section-classify-plast{
+  width: 120px ;
+  height: 120px ;
+  margin-top: 20%;
+}
+.hover-item-section-classify-plast span{
+  line-height: 120px;
+  font-size: 5rem;
+}
+.item-section-row-plast b{
+  font-size: 1.25rem;
+  margin-top: 20%;
+}
+.form-section-plast{
+  height: auto;
+}
+.form1-section-plast{
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
+.control-text-form-plast{
+  width: 100%;
+}
+.text-form1-plast{
+  width: 90% !important;
+  text-align: center;
+}
+.form-plast{
+  width: 90%;
+}
+.mb-3{
+  
+  text-align: center;
+}
+.second-footer-col1va2{
+  text-align: center;
+    margin-top:8% ;
+    padding-left: 1.5%;
+    
+  }
+  .second-footer-col3{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+}
+@media only screen and (max-width: 576px) {
+
+  .img-plast{
+    margin-left:-9%;
+    margin-right: auto;  
+   
+  }
+  .second-footer-col1va2{
+  text-align: center;
+    margin-top:8% ;
+    margin: 0 auto;
+    padding-right: 0%;
+    padding-left: 1.5%;
+    
+  }
+  .second-footer-col3{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .second-footer-col3 p{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .75rem;
+  }
+  .second-footer-col4{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .contact-main-section-plast{
+    padding-top: 30%;
+  }
+  .contact-main-section-plast{
+    width: auto;
+   
+    
+  }
+  .hover-item-section-classify-plast{
+    width: 150px ;
+    height: 150px ;
+    margin-top: 20%;
+  }
+  .item-section-row-plast b{
+    font-size: 1.5rem;
+    margin-top: 20%;
+  }
+  .hover-item-section-classify-plast span{
+  font-size: 6rem;
+  line-height: 150px;
+  }
+}
